@@ -5264,5 +5264,31 @@
     ],
     "duration": 60,
     "calendar_event_id": "5ar0hopnp3l2uooa99v773oapg"
+  },
+  "encryptthemempool": {
+    "call_series": "encryptthemempool",
+    "meeting_id": "84342410669",
+    "occurrence_rate": "bi-weekly",
+    "occurrences": [
+      {
+        "issue_number": 1929,
+        "issue_title": "Encrypt The Mempool #0, February 18, 2026",
+        "start_time": "2026-02-18T15:00:00Z",
+        "duration": 30,
+        "skip_youtube_upload": false,
+        "skip_transcript_processing": false,
+        "youtube_upload_processed": false,
+        "transcript_processed": false,
+        "upload_attempt_count": 0,
+        "transcript_attempt_count": 0,
+        "telegram_message_id": null,
+        "youtube_streams_posted_to_discourse": false,
+        "youtube_streams": null,
+        "occurrence_number": 1,
+        "discourse_topic_id": 27749
+      }
+    ],
+    "duration": 30,
+    "calendar_event_id": "i6bpc0to667gmipkhrltlrap4o"
   }
 }
