@@ -194,6 +194,20 @@
       "youtubePlaylist": "PLJqWcTqh_zKFeek2HYhQhInZjnN4rlU52",
       "calls": [
         {
+          "date": "2026-02-17",
+          "path": "trustlesslogindex/2026-02-17_003",
+          "resources": {
+            "transcript": "transcript.vtt",
+            "transcript_corrected": "transcript_corrected.vtt",
+            "changelog": "transcript_changelog.tsv",
+            "chat": "chat.txt",
+            "tldr": "tldr.json"
+          },
+          "number": 3,
+          "issue": 1927,
+          "videoUrl": "https://www.youtube.com/watch?v=710mZYDRtPE"
+        },
+        {
           "date": "2026-02-03",
           "path": "trustlesslogindex/2026-02-03_002",
           "resources": {
