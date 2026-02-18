@@ -327,7 +327,7 @@ def main():
         # Check if result is a Path (existing artifacts) or string (date from mapping)
         if isinstance(meeting_dir_or_date, Path):
             meeting_dir = meeting_dir_or_date
-            if number:
+            if number is not None:
                 print(f"📋 Most recent meeting: {call} #{number}")
             else:
                 print(f"📋 Most recent meeting directory: {meeting_dir.name}")
@@ -340,7 +340,7 @@ def main():
         meeting_dir = None
 
     # Check if meeting directory exists (for --resume)
-    if number and not meeting_dir:
+    if number is not None and not meeting_dir:
         meeting_dir = find_call_directory(call, number, raise_on_missing=False)
 
     print(f"\n🚀 Asset Pipeline: {call} #{number}")
@@ -357,7 +357,7 @@ def main():
             download_cmd.extend(["--date", recent_date])
         elif args.recent:
             download_cmd.extend(["--recent", "1"])
-        elif number:
+        elif number is not None:
             # Use --date if we can find it from directory, otherwise use --recent
             if meeting_dir:
                 # Extract date from directory name
@@ -378,7 +378,7 @@ def main():
                 meeting_dir, number = result
 
     # Verify meeting directory exists
-    if number:
+    if number is not None:
         meeting_dir = find_call_directory(call, number, raise_on_missing=False)
 
     if not meeting_dir or not meeting_dir.exists():

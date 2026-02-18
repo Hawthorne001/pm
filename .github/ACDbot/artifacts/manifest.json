@@ -134,7 +134,7 @@
       "calls": [
         {
           "date": "2026-02-18",
-          "path": "encryptthemempool/2026-02-18_018",
+          "path": "encryptthemempool/2026-02-18_000",
           "resources": {
             "transcript": "transcript.vtt",
             "transcript_corrected": "transcript_corrected.vtt",
@@ -142,7 +142,7 @@
             "chat": "chat.txt",
             "tldr": "tldr.json"
           },
-          "number": 18,
+          "number": 0,
           "issue": 1929,
           "videoUrl": "https://www.youtube.com/watch?v=cR62-XnrM3o"
         }

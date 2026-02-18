@@ -82,7 +82,7 @@ def extract_meeting_number(topic, series_name):
         if match:
             number = match.group(1)
             # Validate it looks like a reasonable meeting number (not year, etc.)
-            if 1 <= int(number) <= MAX_MEETING_NUMBER:
+            if 0 <= int(number) <= MAX_MEETING_NUMBER:
                 return number
 
     return None
