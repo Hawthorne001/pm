@@ -109,6 +109,25 @@
         }
       ]
     },
+    "encryptthemempool": {
+      "name": "Encrypt the Mempool",
+      "youtubePlaylist": "PLJqWcTqh_zKH6BWQNJBTsIispobvV7pa4",
+      "calls": [
+        {
+          "date": "2026-02-18",
+          "path": "encryptthemempool/2026-02-18_018",
+          "resources": {
+            "transcript": "transcript.vtt",
+            "transcript_corrected": "transcript_corrected.vtt",
+            "changelog": "transcript_changelog.tsv",
+            "chat": "chat.txt",
+            "tldr": "tldr.json"
+          },
+          "number": 18,
+          "issue": 1929
+        }
+      ]
+    },
     "focil": {
       "name": "FOCIL Breakout",
       "youtubePlaylist": "PLJqWcTqh_zKFIaCmjgKO4HJLn4y-Rg3He",
@@ -134,6 +153,19 @@
       "youtubePlaylist": "PLJqWcTqh_zKE8xsbR8cPEDQr01e2L0Qb_",
       "calls": [
         {
+          "date": "2026-02-18",
+          "path": "glamsterdamrepricings/2026-02-18_002",
+          "resources": {
+            "transcript": "transcript.vtt",
+            "transcript_corrected": "transcript_corrected.vtt",
+            "changelog": "transcript_changelog.tsv",
+            "chat": "chat.txt",
+            "tldr": "tldr.json"
+          },
+          "number": 2,
+          "issue": 1935
+        },
+        {
           "date": "2026-02-04",
           "path": "glamsterdamrepricings/2026-02-04_001",
           "resources": {
@@ -153,6 +185,18 @@
       "name": "PQ Transaction Signatures",
       "youtubePlaylist": "PLJqWcTqh_zKEOum3uR0odkH59fmGUYuZB",
       "calls": [
+        {
+          "date": "2026-02-18",
+          "path": "pqtransactionsignatures/2026-02-18_002",
+          "resources": {
+            "transcript": "transcript.vtt",
+            "transcript_corrected": "transcript_corrected.vtt",
+            "changelog": "transcript_changelog.tsv",
+            "chat": "chat.txt"
+          },
+          "number": 2,
+          "issue": 1916
+        },
         {
           "date": "2026-02-04",
           "path": "pqtransactionsignatures/2026-02-04_001",
