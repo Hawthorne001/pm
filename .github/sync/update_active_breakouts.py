@@ -114,6 +114,7 @@ def match_issue_to_series(issue_title, breakout_series):
             'eipip': ['eipip'],
             'glamsterdamrepricings': ['glamsterdam repricings', 'glamsterdam gas repricings'],
             'encryptthemempool': ['encrypt the mempool', 'encrypt mempool', 'eip-8105'],
+            'fcr': ['fast confirmation rule', 'fcr breakout', 'fcr '],
             'zkevm': ['l1-zkevm', 'l1 zkevm', 'zkevm'],
             'protocolresearch': ['protocol research'],
         }
