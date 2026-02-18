@@ -81,3 +81,6 @@ GlamRepricings:
 
 EncryptMempool:
  - "^(.*[Ee]ncrypt the [Mm]empool.*|.*[Ee]ncrypt [Mm]empool.*|.*EIP-8105.*)"
+
+FCR:
+ - "^(.*[Ff]ast [Cc]onfirmation [Rr]ule.*|.*FCR.*)"
