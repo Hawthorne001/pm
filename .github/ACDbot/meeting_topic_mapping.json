@@ -5290,15 +5290,16 @@
         "duration": 60,
         "skip_youtube_upload": false,
         "skip_transcript_processing": false,
-        "youtube_upload_processed": false,
+        "youtube_upload_processed": true,
         "transcript_processed": true,
-        "upload_attempt_count": 0,
+        "upload_attempt_count": 1,
         "transcript_attempt_count": 0,
         "telegram_message_id": null,
         "youtube_streams_posted_to_discourse": false,
         "youtube_streams": null,
         "occurrence_number": 2,
-        "discourse_topic_id": 27699
+        "discourse_topic_id": 27699,
+        "youtube_video_id": "qfabylnV53A"
       }
     ],
     "duration": 60,
@@ -5361,15 +5362,16 @@
         "duration": 60,
         "skip_youtube_upload": false,
         "skip_transcript_processing": false,
-        "youtube_upload_processed": false,
+        "youtube_upload_processed": true,
         "transcript_processed": true,
-        "upload_attempt_count": 0,
+        "upload_attempt_count": 1,
         "transcript_attempt_count": 0,
         "telegram_message_id": null,
         "youtube_streams_posted_to_discourse": false,
         "youtube_streams": null,
         "occurrence_number": 2,
-        "discourse_topic_id": 27761
+        "discourse_topic_id": 27761,
+        "youtube_video_id": "ia9u4wDn6CM"
       }
     ],
     "duration": 60,
@@ -5387,15 +5389,16 @@
         "duration": 30,
         "skip_youtube_upload": false,
         "skip_transcript_processing": false,
-        "youtube_upload_processed": false,
+        "youtube_upload_processed": true,
         "transcript_processed": true,
-        "upload_attempt_count": 0,
+        "upload_attempt_count": 1,
         "transcript_attempt_count": 0,
         "telegram_message_id": null,
         "youtube_streams_posted_to_discourse": false,
         "youtube_streams": null,
         "occurrence_number": 1,
-        "discourse_topic_id": 27749
+        "discourse_topic_id": 27749,
+        "youtube_video_id": "cR62-XnrM3o"
       }
     ],
     "duration": 30,
