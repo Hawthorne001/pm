@@ -89,6 +89,25 @@
         }
       ]
     },
+    "allwalletdevs": {
+      "name": "All Wallet Devs",
+      "youtubePlaylist": "PLJqWcTqh_zKGe6SCg5Z2UCqoR0JE5yzsZ",
+      "calls": [
+        {
+          "date": "2026-02-18",
+          "path": "allwalletdevs/2026-02-18_038",
+          "resources": {
+            "transcript": "transcript.vtt",
+            "transcript_corrected": "transcript_corrected.vtt",
+            "changelog": "transcript_changelog.tsv",
+            "chat": "chat.txt",
+            "tldr": "tldr.json"
+          },
+          "number": 38,
+          "issue": 1909
+        }
+      ]
+    },
     "bal": {
       "name": "EIP-7928 Breakout Room",
       "youtubePlaylist": "PLJqWcTqh_zKHCi0b6xb6QB1KE1DiJm5Fj",
