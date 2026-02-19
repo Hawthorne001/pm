@@ -5421,5 +5421,31 @@
     ],
     "duration": 30,
     "calendar_event_id": "i6bpc0to667gmipkhrltlrap4o"
+  },
+  "fcr": {
+    "call_series": "fcr",
+    "meeting_id": "82697667682",
+    "occurrence_rate": "bi-weekly",
+    "occurrences": [
+      {
+        "issue_number": 1939,
+        "issue_title": "Fast Confirmation Rule (FCR) #4>, March 3, 2026",
+        "start_time": "2026-03-03T14:00:00Z",
+        "duration": 60,
+        "skip_youtube_upload": false,
+        "skip_transcript_processing": false,
+        "youtube_upload_processed": false,
+        "transcript_processed": false,
+        "upload_attempt_count": 0,
+        "transcript_attempt_count": 0,
+        "telegram_message_id": null,
+        "youtube_streams_posted_to_discourse": false,
+        "youtube_streams": null,
+        "occurrence_number": 1,
+        "discourse_topic_id": 27769
+      }
+    ],
+    "duration": 60,
+    "calendar_event_id": "kgiuseha71gfrl3m0pbt5032ks"
   }
 }
