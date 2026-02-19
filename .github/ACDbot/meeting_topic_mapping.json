@@ -1028,7 +1028,8 @@
           }
         ],
         "occurrence_number": 21,
-        "discourse_topic_id": 27752
+        "discourse_topic_id": 27752,
+        "discord_notification_sent": true
       }
     ],
     "uuid": "d75yTKdtQVSo78I9Xf/T7Q=="
