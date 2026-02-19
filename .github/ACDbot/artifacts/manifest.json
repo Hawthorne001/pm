@@ -6,6 +6,20 @@
       "youtubePlaylist": "PLJqWcTqh_zKFtf6yUxjwjE5P1gsDSIPjV",
       "calls": [
         {
+          "date": "2026-02-19",
+          "path": "acdc/2026-02-19_175",
+          "resources": {
+            "transcript": "transcript.vtt",
+            "transcript_corrected": "transcript_corrected.vtt",
+            "changelog": "transcript_changelog.tsv",
+            "chat": "chat.txt",
+            "tldr": "tldr.json"
+          },
+          "number": 175,
+          "issue": 1930,
+          "videoUrl": "https://youtube.com/watch?v=o4fNYC3FTE4"
+        },
+        {
           "date": "2026-02-05",
           "path": "acdc/2026-02-05_174",
           "resources": {
