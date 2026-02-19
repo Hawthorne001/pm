@@ -416,12 +416,18 @@ def update_recurring_event(event_id: str, summary: str, start_dt, duration_minut
 
                 print(f"[DEBUG] New recurrence rules: {new_recurrence}")
 
-                # Update the event with new recurrence
+                # Update the event with new recurrence, rebasing start to target date
                 event_body = {
                     'summary': summary,
                     'description': description,
-                    'start': existing_event.get('start'),
-                    'end': existing_event.get('end'),
+                    'start': {
+                        'dateTime': start_dt.isoformat(),
+                        'timeZone': 'UTC'
+                    },
+                    'end': {
+                        'dateTime': end_dt.isoformat(),
+                        'timeZone': 'UTC'
+                    },
                     'recurrence': new_recurrence,
                 }
 
