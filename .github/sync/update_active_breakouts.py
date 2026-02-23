@@ -104,7 +104,7 @@ def match_issue_to_series(issue_title, breakout_series):
             'stateless': ['stateless'],
             'portal': ['portal'],
             'l2interop': ['l2 interop', 'l2-interop'],
-            'pqinterop': ['pq interop', 'post-quantum interop'],
+            'pqinterop': ['pq interop', 'post-quantum interop', 'post quantum interop', '(pq) interop'],
             'pqtransactionsignatures': ['pq transaction', 'post-quantum transaction', 'post quantum transaction', 'pqts'],
             'trustlessagents': ['trustless agents', 'erc-8004'],
             'allwalletdevs': ['allwalletdevs', 'all wallet devs', 'wallet devs'],
@@ -114,7 +114,7 @@ def match_issue_to_series(issue_title, breakout_series):
             'eipip': ['eipip'],
             'glamsterdamrepricings': ['glamsterdam repricings', 'glamsterdam gas repricings'],
             'encryptthemempool': ['encrypt the mempool', 'encrypt mempool', 'eip-8105'],
-            'fcr': ['fast confirmation rule', 'fcr breakout', 'fcr '],
+            'fcr': ['fast confirmation rule', 'fcr breakout', 'fcr #', 'fcr call'],
             'zkevm': ['l1-zkevm', 'l1 zkevm', 'zkevm'],
             'protocolresearch': ['protocol research'],
         }
