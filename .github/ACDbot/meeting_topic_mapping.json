@@ -2009,7 +2009,8 @@
           }
         ],
         "occurrence_number": 39,
-        "discourse_topic_id": 27758
+        "discourse_topic_id": 27758,
+        "discord_notification_sent": true
       }
     ],
     "uuid": "VSEv1YKSToeM9+peGbhxDQ==",
