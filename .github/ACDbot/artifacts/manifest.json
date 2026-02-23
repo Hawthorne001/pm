@@ -66,7 +66,8 @@
             "transcript": "transcript.vtt",
             "transcript_corrected": "transcript_corrected.vtt",
             "changelog": "transcript_changelog.tsv",
-            "chat": "chat.txt"
+            "chat": "chat.txt",
+            "tldr": "tldr.json"
           },
           "number": 71,
           "issue": 1932,
