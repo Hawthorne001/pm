@@ -49,6 +49,9 @@ CLIENT_SECRETS_FILE = "client_secrets.json"
 # Add these functions at the top of the file
 MAPPING_FILE = ".github/ACDbot/meeting_topic_mapping.json"
 
+# Thumbnail for uploaded recordings (distinct from livestream thumbnail)
+UPLOAD_THUMBNAIL_PATH = ".github/ACDbot/thumbnails/recording_thumbnail.png"
+
 def get_authenticated_service():
     # Initialize credentials from environment variables
     creds = Credentials(
@@ -418,6 +421,20 @@ def upload_recording(meeting_id, occurrence_issue_number=None, error_collector=N
 
         youtube_link = f"https://youtu.be/{response['id']}"
         print(f"Uploaded YouTube video: {youtube_link}")
+
+        # Set custom thumbnail for uploaded recording
+        if os.path.exists(UPLOAD_THUMBNAIL_PATH):
+            try:
+                print(f"[DEBUG] Setting custom thumbnail for video {response['id']} from {UPLOAD_THUMBNAIL_PATH}")
+                thumbnail_response = youtube.thumbnails().set(
+                    videoId=response['id'],
+                    media_body=googleapiclient.http.MediaFileUpload(UPLOAD_THUMBNAIL_PATH)
+                ).execute()
+                print(f"[INFO] Successfully set custom thumbnail: {thumbnail_response['items'][0]['default']['url']}")
+            except Exception as thumb_error:
+                print(f"[WARN] Failed to set custom thumbnail: {thumb_error}")
+        else:
+            print(f"[DEBUG] No thumbnail file at {UPLOAD_THUMBNAIL_PATH}, using YouTube auto-generated thumbnail")
 
         # Add video to appropriate playlist; must be done after upload is successful
         call_series = series_entry.get("call_series")

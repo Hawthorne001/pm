@@ -11,8 +11,8 @@ from googleapiclient.http import MediaFileUpload
 
 from .call_series_config import get_youtube_playlist_mapping
 
-# Define the thumbnail path (corrected)
-THUMBNAIL_PATH = ".github/ACDbot/Pectra YT.jpg"
+# Thumbnail for livestreams
+THUMBNAIL_PATH = ".github/ACDbot/thumbnails/livestream_thumbnail.jpg"
 
 PLAYLIST_MAPPING = get_youtube_playlist_mapping()
 
