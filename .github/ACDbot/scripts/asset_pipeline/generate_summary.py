@@ -111,7 +111,7 @@ def fetch_github_issue_agenda(issue_number: int, repo: str = "ethereum/pm") -> s
             body_html = body_match.group(1)
 
             # Try to find the "Agenda" heading and extract content after it
-            agenda_pattern = r'<h3[^>]*>.*?Agenda.*?</h3>(.*?)(?=<h[123]|</div>|$)'
+            agenda_pattern = r'<h3[^>]*>.*?Agenda.*?</h3>(.*?)(?=<h3[^>]*>\s*Call Series\s*</h3>|$)'
             agenda_match = re.search(agenda_pattern, body_html, re.DOTALL | re.IGNORECASE)
 
             if agenda_match:
@@ -198,8 +198,8 @@ def generate_summary(
     print(f"Fetching agenda from GitHub issue #{issue_number}...")
     agenda = fetch_github_issue_agenda(issue_number)
     if not agenda:
-        print("Could not fetch agenda")
-        return False
+        print("Could not fetch agenda, proceeding without it")
+        agenda = "(Agenda not available)"
 
     # Load prompt
     if not prompt_file.exists():
