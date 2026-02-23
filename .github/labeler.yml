@@ -82,5 +82,8 @@ GlamRepricings:
 EncryptMempool:
  - "^(.*[Ee]ncrypt the [Mm]empool.*|.*[Ee]ncrypt [Mm]empool.*|.*EIP-8105.*)"
 
+EVMStaticControlFlow:
+ - "^(.*[Ss]tatic [Cc]ontrol [Ff]low.*|.*EVM Static Control Flow.*)"
+
 FCR:
  - "^(.*[Ff]ast [Cc]onfirmation [Rr]ule.*|.*FCR.*)"

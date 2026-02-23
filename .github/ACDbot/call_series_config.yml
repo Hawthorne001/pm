@@ -275,6 +275,17 @@ call_series:
       display_zoom_link_in_invite: true
       external_meeting_link: false
 
+  evmstaticcontrolflow:
+    display_name: "EVM Static Control Flow"
+    youtube_playlist_id: "PLJqWcTqh_zKFRlzn6Tab0DF30bBB_avGD"
+    discord_webhook_env: null
+    autopilot_defaults:
+      duration: 60
+      occurrence_rate: "other"
+      need_youtube_streams: false
+      display_zoom_link_in_invite: true
+      external_meeting_link: false
+
   # Special: One-time calls (key becomes one-off-{issue_number} at runtime)
   # No autopilot_defaults - one-off calls require manual configuration
   one-off:
