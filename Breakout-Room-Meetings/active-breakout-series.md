@@ -3,7 +3,7 @@
 This table is automatically updated based on issues in the ethereum/pm repo.
 A breakout is considered "active" if it has a meeting date within the past 3 months.
 
-*Last updated: 2026-02-23 02:31 UTC (updated weekly)*
+*Last updated: 2026-02-23 07:46 UTC (updated weekly)*
 
 | Call Series | Facilitator | Latest | Issue |
 |-------------|-------------|--------|-------|
@@ -21,7 +21,7 @@ A breakout is considered "active" if it has a meeting date within the past 3 mon
 | L2 Interop Working Group | [@jrudolf](https://github.com/jrudolf) | 2026-02-11 | [Link](https://github.com/ethereum/pm/issues/1899) |
 | PQ Interop | [@will-corcoran](https://github.com/will-corcoran) | 2026-02-25 | [Link](https://github.com/ethereum/pm/issues/1938) |
 | PQ Transaction Signatures | [@asanso](https://github.com/asanso) | 2026-02-18 | [Link](https://github.com/ethereum/pm/issues/1916) |
-| RPC Standards | [@bomanaps](https://github.com/bomanaps) | 2026-02-09 | [Link](https://github.com/ethereum/pm/issues/1914) |
+| RPC Standards | [@bomanaps](https://github.com/bomanaps) | 2026-02-23 | [Link](https://github.com/ethereum/pm/issues/1943) |
 | Stateless Implementers | [@gabrocheleau](https://github.com/gabrocheleau) | 2026-02-10 | [Link](https://github.com/ethereum/pm/issues/1919) |
 | Trustless Log Index | [@zsfelfoldi](https://github.com/zsfelfoldi) | 2026-02-17 | [Link](https://github.com/ethereum/pm/issues/1927) |
 
