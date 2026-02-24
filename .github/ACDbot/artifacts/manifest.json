@@ -182,6 +182,15 @@
       "youtubePlaylist": "PLJqWcTqh_zKFIaCmjgKO4HJLn4y-Rg3He",
       "calls": [
         {
+          "date": "2026-02-24",
+          "path": "focil/2026-02-24_029",
+          "resources": {
+            "chat": "chat.txt"
+          },
+          "number": 29,
+          "issue": 1946
+        },
+        {
           "date": "2026-02-10",
           "path": "focil/2026-02-10_028",
           "resources": {
