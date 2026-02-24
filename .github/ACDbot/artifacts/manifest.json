@@ -185,7 +185,11 @@
           "date": "2026-02-24",
           "path": "focil/2026-02-24_029",
           "resources": {
-            "chat": "chat.txt"
+            "transcript": "transcript.vtt",
+            "transcript_corrected": "transcript_corrected.vtt",
+            "changelog": "transcript_changelog.tsv",
+            "chat": "chat.txt",
+            "tldr": "tldr.json"
           },
           "number": 29,
           "issue": 1946
