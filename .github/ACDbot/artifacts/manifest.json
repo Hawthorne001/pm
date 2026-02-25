@@ -259,6 +259,26 @@
         }
       ]
     },
+    "pqinterop": {
+      "name": "PQ Interop",
+      "youtubePlaylist": "PLJqWcTqh_zKF_Q9HNXBLW_AtktsjToTIu",
+      "calls": [
+        {
+          "date": "2026-02-25",
+          "path": "pqinterop/2026-02-25_028",
+          "resources": {
+            "transcript": "transcript.vtt",
+            "transcript_corrected": "transcript_corrected.vtt",
+            "changelog": "transcript_changelog.tsv",
+            "chat": "chat.txt",
+            "tldr": "tldr.json"
+          },
+          "number": 28,
+          "issue": 1938,
+          "videoUrl": "https://www.youtube.com/watch?v=Csg2NSpPm6o"
+        }
+      ]
+    },
     "pqtransactionsignatures": {
       "name": "PQ Transaction Signatures",
       "youtubePlaylist": "PLJqWcTqh_zKEOum3uR0odkH59fmGUYuZB",
