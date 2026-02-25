@@ -7,7 +7,23 @@ import calendar
 
 client_id=os.environ["ZOOM_CLIENT_ID"]
 client_secret=os.environ["ZOOM_CLIENT_SECRET"]
-refresh_token=os.environ.get("ZOOM_REFRESH_TOKEN", "")
+
+# Check for a rotated refresh token saved by a previous workflow step
+def _load_refresh_token():
+    try:
+        module_dir = os.path.dirname(os.path.abspath(__file__))
+        acdbot_dir = os.path.dirname(module_dir)
+        token_file = os.path.join(acdbot_dir, "tokens", "zoom_new_refresh_token.txt")
+        if os.path.exists(token_file):
+            with open(token_file) as f:
+                token = f.read().strip()
+            if token:
+                return token
+    except Exception:
+        pass
+    return os.environ.get("ZOOM_REFRESH_TOKEN", "")
+
+refresh_token = _load_refresh_token()
 
 _refresh_token_logged = False
 

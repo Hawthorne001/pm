@@ -47,46 +47,6 @@ jobs:
         run: |
           python .github/ACDbot/scripts/refresh_youtube_token.py || echo "refresh_failed=true" >> $GITHUB_ENV
 
-      - name: Upload Zoom recordings to YouTube
-        continue-on-error: true
-        run: |
-          if [ -n "$INPUT_FORCE_SERIES" ]; then
-            MEETING_ID=$(python -c "
-          import json, sys, os
-          with open('.github/ACDbot/meeting_topic_mapping.json') as f:
-              mapping = json.load(f)
-          series = os.environ['INPUT_FORCE_SERIES']
-          if series not in mapping:
-              print(f'Series {series} not found', file=sys.stderr)
-              sys.exit(1)
-          print(mapping[series].get('meeting_id', ''))
-          ")
-            if [ -n "$MEETING_ID" ]; then
-              python .github/ACDbot/scripts/upload_zoom_recording.py \
-                --meeting_id "$MEETING_ID"
-            else
-              echo "No meeting_id found for series $INPUT_FORCE_SERIES"
-              python .github/ACDbot/scripts/upload_zoom_recording.py
-            fi
-          else
-            python .github/ACDbot/scripts/upload_zoom_recording.py
-          fi
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          ZOOM_CLIENT_ID: ${{ secrets.ZOOM_CLIENT_ID }}
-          ZOOM_CLIENT_SECRET: ${{ secrets.ZOOM_CLIENT_SECRET }}
-          ZOOM_REFRESH_TOKEN: ${{ secrets.ZOOM_REFRESH_TOKEN }}
-          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
-          YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
-          GOOGLE_CLIENT_ID: ${{ secrets.GOOGLE_CLIENT_ID }}
-          GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
-          DISCOURSE_API_KEY: ${{ secrets.DISCOURSE_API_KEY }}
-          DISCOURSE_API_USERNAME: ${{ secrets.DISCOURSE_API_USERNAME }}
-          DISCOURSE_BASE_URL: ${{ vars.DISCOURSE_BASE_URL }}
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ vars.TELEGRAM_CHAT_ID }}
-          MATTERMOST_WEBHOOK_URL: ${{ secrets.MATTERMOST_WEBHOOK_URL }}
-
       - name: Poll Zoom for recordings
         run: |
           if [ -n "$INPUT_FORCE_SERIES" ] && [ -n "$INPUT_FORCE_NUMBER" ]; then
@@ -139,6 +99,46 @@ jobs:
           # Telegram credentials
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ vars.TELEGRAM_CHAT_ID }}
+
+      - name: Upload Zoom recordings to YouTube
+        continue-on-error: true
+        run: |
+          if [ -n "$INPUT_FORCE_SERIES" ]; then
+            MEETING_ID=$(python -c "
+          import json, sys, os
+          with open('.github/ACDbot/meeting_topic_mapping.json') as f:
+              mapping = json.load(f)
+          series = os.environ['INPUT_FORCE_SERIES']
+          if series not in mapping:
+              print(f'Series {series} not found', file=sys.stderr)
+              sys.exit(1)
+          print(mapping[series].get('meeting_id', ''))
+          ")
+            if [ -n "$MEETING_ID" ]; then
+              python .github/ACDbot/scripts/upload_zoom_recording.py \
+                --meeting_id "$MEETING_ID"
+            else
+              echo "No meeting_id found for series $INPUT_FORCE_SERIES"
+              python .github/ACDbot/scripts/upload_zoom_recording.py
+            fi
+          else
+            python .github/ACDbot/scripts/upload_zoom_recording.py
+          fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ZOOM_CLIENT_ID: ${{ secrets.ZOOM_CLIENT_ID }}
+          ZOOM_CLIENT_SECRET: ${{ secrets.ZOOM_CLIENT_SECRET }}
+          ZOOM_REFRESH_TOKEN: ${{ secrets.ZOOM_REFRESH_TOKEN }}
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
+          GOOGLE_CLIENT_ID: ${{ secrets.GOOGLE_CLIENT_ID }}
+          GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
+          DISCOURSE_API_KEY: ${{ secrets.DISCOURSE_API_KEY }}
+          DISCOURSE_API_USERNAME: ${{ secrets.DISCOURSE_API_USERNAME }}
+          DISCOURSE_BASE_URL: ${{ vars.DISCOURSE_BASE_URL }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ vars.TELEGRAM_CHAT_ID }}
+          MATTERMOST_WEBHOOK_URL: ${{ secrets.MATTERMOST_WEBHOOK_URL }}
 
       - name: Run asset pipeline
         if: success()
