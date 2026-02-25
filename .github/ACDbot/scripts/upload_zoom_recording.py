@@ -11,7 +11,7 @@ from google.oauth2.credentials import Credentials
 from google_auth_oauthlib.flow import InstalledAppFlow
 from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
-from modules import zoom, transcript, discourse, tg
+from modules import zoom, transcript, discourse, tg, mattermost_notify
 from modules.youtube_utils import add_video_to_appropriate_playlist
 from modules.mapping_utils import (
     load_mapping as load_meeting_topic_mapping,
@@ -490,6 +490,11 @@ def upload_recording(meeting_id, occurrence_issue_number=None, error_collector=N
             print("Telegram notification sent for YouTube upload.")
         except Exception as e:
             print(f"Error sending Telegram message for YouTube upload: {e}")
+
+        try:
+            mattermost_notify.send_mattermost_notification(telegram_message)
+        except Exception as e:
+            print(f"Error sending Mattermost message for YouTube upload: {e}")
 
         return True # Indicate success
     except HttpError as e:
