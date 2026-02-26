@@ -138,7 +138,7 @@ jobs:
           DISCOURSE_BASE_URL: ${{ vars.DISCOURSE_BASE_URL }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ vars.TELEGRAM_CHAT_ID }}
-          MATTERMOST_WEBHOOK_URL: ${{ secrets.MATTERMOST_WEBHOOK_URL }}
+          MATTERMOST_BOT_WEBHOOK_URL: ${{ secrets.MATTERMOST_BOT_WEBHOOK_URL }}
 
       - name: Run asset pipeline
         if: success()
