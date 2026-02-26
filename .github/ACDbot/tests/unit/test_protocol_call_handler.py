@@ -557,25 +557,23 @@ class TestAutopilotMode(unittest.TestCase):
         self.assertFalse(result["need_youtube_streams"])
 
     def test_apply_autopilot_defaults_one_off_call(self):
-        """Test that autopilot posts notice for one-off calls."""
+        """Test that autopilot applies one-off defaults for one-off calls."""
         mock_issue = unittest.mock.MagicMock()
 
         form_data = {
             "call_series": "one-off-123",
             "autopilot_mode": True,
-            "duration": 60,
+            "duration": 90,
         }
 
         result = self.handler._apply_autopilot_defaults(form_data, mock_issue)
 
-        # Values should remain unchanged
+        # One-off defaults should be applied
         self.assertEqual(result["duration"], 60)
-
-        # Should post informational comment
-        mock_issue.create_comment.assert_called_once()
-        comment_text = mock_issue.create_comment.call_args[0][0]
-        self.assertIn("Autopilot Note", comment_text)
-        self.assertIn("one-time call", comment_text)
+        self.assertEqual(result["occurrence_rate"], "custom")
+        self.assertFalse(result["need_youtube_streams"])
+        self.assertTrue(result["display_zoom_link_in_invite"])
+        self.assertFalse(result["skip_zoom_creation"])
 
     def test_apply_autopilot_defaults_no_defaults_configured(self):
         """Test autopilot with series that has no defaults uses system defaults."""

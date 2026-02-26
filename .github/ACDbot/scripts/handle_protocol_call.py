@@ -21,7 +21,7 @@ from modules.form_parser import FormParser
 from modules.mapping_manager import MappingManager
 from modules.datetime_utils import generate_savvytime_link, format_datetime_for_discourse, format_datetime_for_stream_display
 from modules.logging_config import get_logger, log_success, log_resource_status, log_api_call, should_log_debug
-from modules.call_series_config import get_autopilot_defaults, has_autopilot_support, get_default_autopilot_settings
+from modules.call_series_config import get_autopilot_defaults, has_autopilot_support, get_default_autopilot_settings, get_one_off_autopilot_settings
 
 
 class ProtocolCallHandler:
@@ -112,20 +112,11 @@ The bot will automatically process your issue once the date is corrected.
 
         # Check if this is a one-off call
         if call_series and call_series.startswith("one-off"):
-            self.logger.info("Autopilot mode enabled but call is one-off - using user-provided values")
-            # Post informational comment
-            try:
-                comment_text = """ℹ️ **Autopilot Note**
-
-Autopilot mode was enabled, but this is a one-time call. One-time calls don't have predefined defaults, so your provided configuration values have been used instead."""
-
-                issue.create_comment(comment_text)
-            except Exception as e:
-                self.logger.warning(f"Failed to post autopilot note: {e}")
-            return form_data
-
-        # Get autopilot defaults for this series, or use system defaults
-        defaults = get_autopilot_defaults(call_series)
+            self.logger.info("Autopilot mode enabled for one-off call - applying one-off defaults")
+            defaults = get_one_off_autopilot_settings()
+        else:
+            # Get autopilot defaults for this series, or use system defaults
+            defaults = get_autopilot_defaults(call_series)
 
         if not defaults:
             self.logger.info(f"No specific autopilot config for '{call_series}', using defaults")

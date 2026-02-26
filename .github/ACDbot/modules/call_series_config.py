@@ -159,3 +159,14 @@ def get_default_autopilot_settings() -> dict:
     """
     config = _load_config()
     return config.get("default_autopilot_settings", {})
+
+
+def get_one_off_autopilot_settings() -> dict:
+    """
+    Get the autopilot settings for one-off calls.
+
+    Returns:
+        Dict with one-off autopilot settings
+    """
+    config = _load_config()
+    return config.get("one_off_autopilot_settings", {})
