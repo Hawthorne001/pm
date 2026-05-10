@@ -2,14 +2,13 @@
 
 This repository is used for project management for various initiatives affecting the Ethereum protocol.
 This repository is for:
-- [Execution](https://github.com/ethereum/pm/issues?q=is%3Aissue%20label%3AACD%20label%3AExecution) and [Consensus](https://github.com/ethereum/pm/issues?q=is%3Aissue%20label%3AACD%20label%3AConsensus) Layer AllCoreDevs meetings
-- [Breakout Rooms](https://github.com/ethereum/pm/issues?q=(label%3ABreakout%20label%3AConsensus)%20OR%20(label%3ABreakout%20label%3AExecution)%20) on various L1-related topics
-- [L2 interop](https://github.com/ethereum/pm/issues?q=is%3Aissue%20label%3AL2%20)
- breakout meetings
+- [Execution](https://github.com/ethereum/pm/issues?q=is%3Aissue%20label%3AACD%20label%3AExecution) (ACDE) and [Consensus](https://github.com/ethereum/pm/issues?q=is%3Aissue%20label%3AACD%20label%3AConsensus) (ACDC) Layer AllCoreDevs meetings
+- [Testing](https://github.com/ethereum/pm/issues?q=is%3Aissue%20label%3AACD%20ACDT) meetings
+- [Breakout calls](https://github.com/ethereum/pm/blob/master/Breakout-Room-Meetings/active-breakout-series.md) on various specific Ethereum core development topics
 
 Agendas for these meetings can be found on the [Issues](https://github.com/ethereum/pm/issues) tab. This [Google Calendar](https://calendar.google.com/calendar/embed?src=c_upaofong8mgrmrkegn7ic7hk5s%40group.calendar.google.com) also tracks upcoming protocol meetings.
 
-Past meetings with call summaries, related links, and discussions can be found on [Ethereum Magicians](https://ethereum-magicians.org/c/protocol-calls/63).
+Discussions happen in the [Ethereum R&D Discord server](https://discord.com/invite/qGpsxSA) and on [Ethereum Magicians](https://ethereum-magicians.org/c/protocol-calls/63). Upcoming and past call information (transcripts, video links, summaries) can be found both on [Forkcast](https://forkcast.org/calls/) and on the table at the bottom of this README. Recordings are hosted on the [@EthereumProtocol YouTube channel](https://www.youtube.com/@ethereumprotocol).
 
 ## AllCoreDevs Meetings Overview
 
@@ -18,8 +17,6 @@ Past meetings with call summaries, related links, and discussions can be found o
 AllCoreDevs is a weekly meeting held by the Ethereum development community to discuss technical issues and coordinate work on the Ethereum protocol. The meetings are attended by core contributors from various organizations. During the call, participants discuss potential protocol changes, testing, and other related issues.
 
 On one week, the focus of the call is on Ethereum's consensus layer (i.e. proof-of-stake, the Beacon Chain, etc.) and on alternate weeks, the focus of the call is on Ethereum's execution layer (i.e. the EVM, gas schedules, etc.).
-
-The calls are livestreamed and saved on the [@EthereumProtocol YouTube channel](https://www.youtube.com/@ethereumprotocol).
 
 ### Agendas
 
@@ -33,13 +30,14 @@ To add an item to an [agenda](https://github.com/ethereum/pm/issues), simply add
 
 Protocol developers, researchers and EIP authors are invited to attend the meetings. Regular attendees include Ethereum client developers, testing and security teams, and independent contributors.
 
-Sometimes non-core contributors with particular expertise on a topic are invited on to discuss a specific agenda item. If you feel you would contribute to the meetings with your attendance please reach out to [Tim Beiko](mailto:tim@ethereum.org).
+Sometimes non-core contributors with particular expertise on a topic are invited on to discuss a specific agenda item. If you feel you would contribute to the meetings with your attendance please reach out on the [Ethereum R&D Discord](https://discord.com/invite/qGpsxSA) in the relevant channel topic or reach out to [Nixo](mailto:nixorokish@pm.me).
 
 ### Who Facilitates the Meetings
 
-Current facilitators:
-- Execution: [Ansgar Dietrichs](https://github.com/adietrichs) (interim, Oct '25)
-- Consensus: [Alex Stokes](https://github.com/ralexstokes) (Sep '24)
+Current facilitators (date started):
+- **Execution**: coleads [Ansgar Dietrichs](https://github.com/adietrichs) (Oct '25) & [Nixo](https://github.com/nixorokish/) (Apr '26)
+- **Consensus**: [Parithosh Jayanthi](https://github.com/parithosh) (interim, May '26), ~~[Alex Stokes](https://github.com/ralexstokes)~~ (Sep '24, currently out of office)
+- **Testing**: coleads [EF EthPandaOps team](https://github.com/ethpandaops/) & [EF STEEL team](https://steel.ethereum.foundation/team/)
 
 Past facilitators:
 - Tim Beiko
@@ -48,9 +46,11 @@ Past facilitators:
 - Lane Rettig
 - George Hallam
 
-Breakout Rooms are usually chaired by the expert/champion for the topic at hand. The [Ethereum Cat Herders](https://github.com/ethcatherders) provide full transcripts (linked below) for AllCoreDevs meetings, as well as some Breakout Rooms.
+Breakout Rooms are usually chaired by the expert/champion for the topic at hand.
 
-While the meetings are independent of any organization, the current facilitators are part of the Ethereum Foundation.
+### Who Manages This Repo
+
+This repo is managed by the Ethereum Foundation's [Protocol Support team](https://ps.ethereum.foundation/team) and ACD call facilitators.
 
 ## Previous AllCoreDevs Meetings
 
