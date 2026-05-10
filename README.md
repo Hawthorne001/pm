@@ -33,7 +33,7 @@ To add an item to an [agenda](https://github.com/ethereum/pm/issues), simply add
 
 Protocol developers, researchers and EIP authors are invited to attend the meetings. Regular attendees include Ethereum client developers, testing and security teams, and independent contributors.
 
-Sometimes non-core contributors with particular expertise on a topic are invited on to discuss a specific agenda item. If you feel you would contribute to the meetings with your attendance please reach out on the Ethereum R&D Discord in the relevant channel topic or reach out to [Nixo](mailto:nixorokish@pm.me).
+Sometimes non-core contributors with particular expertise on a topic are invited on to discuss a specific agenda item. If you feel you would contribute to the meetings with your attendance please reach out on the [Ethereum R&D Discord](https://discord.com/invite/qGpsxSA) in the relevant channel topic or reach out to [Nixo](mailto:nixorokish@pm.me).
 
 ### Who Facilitates the Meetings
 
@@ -49,9 +49,7 @@ Past facilitators:
 - Lane Rettig
 - George Hallam
 
-Breakout Rooms are usually chaired by the expert/champion for the topic at hand. The [Ethereum Cat Herders](https://github.com/ethcatherders) provide full transcripts (linked below) for AllCoreDevs meetings, as well as some Breakout Rooms.
-
-While the meetings are independent of any organization, the current facilitators are part of the Ethereum Foundation.
+Breakout Rooms are usually chaired by the expert/champion for the topic at hand.
 
 ## Previous AllCoreDevs Meetings
 
