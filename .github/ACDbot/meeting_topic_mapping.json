@@ -669,6 +669,31 @@
         "occurrence_number": 27,
         "discourse_topic_id": 28353,
         "discord_notification_sent": true
+      },
+      {
+        "issue_number": 2044,
+        "issue_title": "All Core Devs - Execution (ACDE) #237, May 21, 2026",
+        "start_time": "2026-05-21T14:00:00Z",
+        "duration": 90,
+        "skip_youtube_upload": true,
+        "skip_transcript_processing": false,
+        "youtube_upload_processed": false,
+        "transcript_processed": false,
+        "upload_attempt_count": 0,
+        "transcript_attempt_count": 0,
+        "telegram_message_id": null,
+        "youtube_streams_posted_to_discourse": false,
+        "youtube_streams": [
+          {
+            "broadcast_id": "EuUZbpMoIjM",
+            "stream_id": "6rYoXJ_3BbPyWx_GQDDRRQ1778432476181548",
+            "stream_url": "https://youtube.com/watch?v=EuUZbpMoIjM",
+            "rtmp_url": "rtmp://a.rtmp.youtube.com/live2/kvxm-3we0-md5b-6364-d48e",
+            "scheduled_time": "2026-05-21T14:00:00.000Z"
+          }
+        ],
+        "occurrence_number": 28,
+        "discourse_topic_id": 28485
       }
     ],
     "calendar_event_id": "02cu1b1g1mscunv7d3p0ilg3gg",
