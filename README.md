@@ -33,13 +33,14 @@ To add an item to an [agenda](https://github.com/ethereum/pm/issues), simply add
 
 Protocol developers, researchers and EIP authors are invited to attend the meetings. Regular attendees include Ethereum client developers, testing and security teams, and independent contributors.
 
-Sometimes non-core contributors with particular expertise on a topic are invited on to discuss a specific agenda item. If you feel you would contribute to the meetings with your attendance please reach out to [Tim Beiko](mailto:tim@ethereum.org).
+Sometimes non-core contributors with particular expertise on a topic are invited on to discuss a specific agenda item. If you feel you would contribute to the meetings with your attendance please reach out on the Ethereum R&D Discord in the relevant channel topic or reach out to [Nixo](mailto:nixorokish@pm.me).
 
 ### Who Facilitates the Meetings
 
-Current facilitators:
-- Execution: [Ansgar Dietrichs](https://github.com/adietrichs) (interim, Oct '25)
-- Consensus: [Alex Stokes](https://github.com/ralexstokes) (Sep '24)
+Current facilitators (date started):
+- **Execution**: coleads [Ansgar Dietrichs](https://github.com/adietrichs) (Oct '25) & [Nixo](https://github.com/nixorokish/) (Apr '26)
+- **Consensus**: [Parithosh Jayanthi](https://github.com/parithosh) (interim, May '26), ~~[Alex Stokes](https://github.com/ralexstokes)~~ (Sep '24, currently out of office)
+- **Testing**: coleads [EF EthPandaOps team](https://github.com/ethpandaops/) & [EF STEEL team](https://steel.ethereum.foundation/team/)
 
 Past facilitators:
 - Tim Beiko
