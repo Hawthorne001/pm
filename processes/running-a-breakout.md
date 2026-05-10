@@ -26,9 +26,9 @@ That's it! Autopilot handles the rest. Only uncheck Autopilot if you need to cus
 
 ### Verbose instructions
 
-1. **Contact Protocol Support**
+1. **Contact pm repo maintainers**
     - **Josh** (`@joshdavislight` on Discord / Telegram, `josh.davis@ethereum.org` by email) or
-    - **nixo** (`@nixo.eth` on Discord, `nixo@ethereum.org` by email)
+    - **nixo** (`@nixo.eth` on Discord, `nixorokish@pm.me` by email)
 
     Provide: title, cadence, reason for the breakout, associated EIP(s), target fork (if relevant), & your Github username. Wait for Protocol Support to confirm creation.
 
