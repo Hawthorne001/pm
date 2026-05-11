@@ -172,6 +172,20 @@
       "youtubePlaylist": "PLJqWcTqh_zKFE51VgNZmgT5SGYTKnyY6Y",
       "calls": [
         {
+          "date": "2026-05-11",
+          "path": "acdt/2026-05-11_079",
+          "resources": {
+            "transcript": "transcript.vtt",
+            "transcript_corrected": "transcript_corrected.vtt",
+            "changelog": "transcript_changelog.tsv",
+            "chat": "chat.txt",
+            "tldr": "tldr.json"
+          },
+          "number": 79,
+          "issue": 2038,
+          "videoUrl": "https://youtube.com/watch?v=2MouT9NiGS8"
+        },
+        {
           "date": "2026-04-20",
           "path": "acdt/2026-04-20_078",
           "resources": {
