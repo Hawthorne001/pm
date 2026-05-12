@@ -7017,5 +7017,31 @@
     ],
     "duration": 60,
     "calendar_event_id": "vjap3h4odrqujh7gopt866ph9g"
+  },
+  "p2pnetworking": {
+    "call_series": "p2pnetworking",
+    "meeting_id": "83343889436",
+    "occurrence_rate": "bi-weekly",
+    "occurrences": [
+      {
+        "issue_number": 2051,
+        "issue_title": "P2P Networking #1, May 20, 2026",
+        "start_time": "2026-05-20T15:30:00Z",
+        "duration": 60,
+        "skip_youtube_upload": false,
+        "skip_transcript_processing": false,
+        "youtube_upload_processed": false,
+        "transcript_processed": false,
+        "upload_attempt_count": 0,
+        "transcript_attempt_count": 0,
+        "telegram_message_id": null,
+        "youtube_streams_posted_to_discourse": false,
+        "youtube_streams": null,
+        "occurrence_number": 1,
+        "discourse_topic_id": 28500
+      }
+    ],
+    "duration": 60,
+    "calendar_event_id": "ace5eqk9j5fasnmvr8g14ejo98"
   }
 }
