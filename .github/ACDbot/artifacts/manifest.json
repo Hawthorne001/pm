@@ -462,6 +462,16 @@
       "youtubePlaylist": "PLJqWcTqh_zKH4c_vgCCPZ33Ilb9SdEIcq",
       "calls": [
         {
+          "date": "2026-05-12",
+          "path": "fcr/2026-05-12_007",
+          "resources": {
+            "transcript": "transcript.vtt",
+            "chat": "chat.txt"
+          },
+          "number": 7,
+          "issue": 2037
+        },
+        {
           "date": "2026-04-14",
           "path": "fcr/2026-04-14_006",
           "resources": {
