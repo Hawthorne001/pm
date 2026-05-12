@@ -156,7 +156,7 @@ def generate_summary(
     meeting_dir: Path,
     prompt_file: Path,
     call_type: str,
-    model: str = "claude-sonnet-4-5-20250929",
+    model: str = "claude-sonnet-4-6",
     force: bool = False
 ) -> bool:
     """Generate tldr.json using Claude API."""
@@ -324,7 +324,7 @@ def main():
     parser.add_argument('--dir', '-d', type=Path, help='Meeting directory (alternative to --call/--number)')
     parser.add_argument('--prompt', '-p', type=Path, default=DEFAULT_PROMPT,
                         help='Prompt file (default: asset_pipeline/prompts/summarize.md)')
-    parser.add_argument('--model', '-m', default='claude-sonnet-4-5-20250929',
+    parser.add_argument('--model', '-m', default='claude-sonnet-4-6',
                         help='Claude model to use')
     parser.add_argument('--force', '-f', action='store_true',
                         help='Regenerate even if tldr.json exists')

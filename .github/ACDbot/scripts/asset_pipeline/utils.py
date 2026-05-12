@@ -19,6 +19,7 @@ MODEL_PRICING = {
     "claude-sonnet-4-20250514": (3.00, 15.00),
     "claude-3-5-sonnet-20241022": (3.00, 15.00),
     "claude-haiku-3-5-20241022": (0.80, 4.00),
+    "claude-sonnet-4-6": (3.00, 15.00),
 }
 
 

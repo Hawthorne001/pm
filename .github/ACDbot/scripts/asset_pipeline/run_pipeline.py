@@ -283,7 +283,7 @@ def main():
                         help='Resume from review step (skip download and changelog generation)')
     parser.add_argument('--open-editor', action='store_true',
                         help='Open changelog in $EDITOR for review')
-    parser.add_argument('--model', '-m', default='claude-sonnet-4-20250514',
+    parser.add_argument('--model', '-m', default='claude-sonnet-4-6',
                         help='Claude model for changelog generation')
     parser.add_argument('--summarize', action='store_true',
                         help='Generate structured summary (tldr.json) after corrections')
