@@ -614,6 +614,20 @@
       "youtubePlaylist": "PLJqWcTqh_zKE8xsbR8cPEDQr01e2L0Qb_",
       "calls": [
         {
+          "date": "2026-05-13",
+          "path": "glamsterdamrepricings/2026-05-13_007",
+          "resources": {
+            "transcript": "transcript.vtt",
+            "transcript_corrected": "transcript_corrected.vtt",
+            "changelog": "transcript_changelog.tsv",
+            "chat": "chat.txt",
+            "tldr": "tldr.json"
+          },
+          "number": 7,
+          "issue": 2048,
+          "videoUrl": "https://www.youtube.com/watch?v=wLNQ6SmiBTM"
+        },
+        {
           "date": "2026-04-15",
           "path": "glamsterdamrepricings/2026-04-15_006",
           "resources": {
@@ -783,6 +797,20 @@
       "name": "PQ Interop",
       "youtubePlaylist": "PLJqWcTqh_zKF_Q9HNXBLW_AtktsjToTIu",
       "calls": [
+        {
+          "date": "2026-05-13",
+          "path": "pqinterop/2026-05-13_039",
+          "resources": {
+            "transcript": "transcript.vtt",
+            "transcript_corrected": "transcript_corrected.vtt",
+            "changelog": "transcript_changelog.tsv",
+            "chat": "chat.txt",
+            "tldr": "tldr.json"
+          },
+          "number": 39,
+          "issue": 2055,
+          "videoUrl": "https://www.youtube.com/watch?v=qoQGBWRP9rQ"
+        },
         {
           "date": "2026-05-06",
           "path": "pqinterop/2026-05-06_038",
