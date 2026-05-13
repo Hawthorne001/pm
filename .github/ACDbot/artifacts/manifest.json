@@ -939,10 +939,15 @@
           "date": "2026-05-13",
           "path": "pqtransactionsignatures/2026-05-13_008",
           "resources": {
-            "chat": "chat.txt"
+            "transcript": "transcript.vtt",
+            "transcript_corrected": "transcript_corrected.vtt",
+            "changelog": "transcript_changelog.tsv",
+            "chat": "chat.txt",
+            "tldr": "tldr.json"
           },
           "number": 8,
-          "issue": 2052
+          "issue": 2052,
+          "videoUrl": "https://www.youtube.com/watch?v=y2JQO17LgHk"
         },
         {
           "date": "2026-04-29",
