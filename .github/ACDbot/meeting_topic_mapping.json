@@ -4248,6 +4248,23 @@
         "occurrence_number": 15,
         "discourse_topic_id": 28277,
         "youtube_video_id": "aO-V4MSGiFM"
+      },
+      {
+        "issue_number": 2056,
+        "issue_title": "RPC Standards # 226 | May 18, 2026, 15:00 UTC",
+        "start_time": "2026-05-18T15:00:00Z",
+        "duration": 60,
+        "skip_youtube_upload": false,
+        "skip_transcript_processing": false,
+        "youtube_upload_processed": false,
+        "transcript_processed": false,
+        "upload_attempt_count": 0,
+        "transcript_attempt_count": 0,
+        "telegram_message_id": null,
+        "youtube_streams_posted_to_discourse": false,
+        "youtube_streams": null,
+        "occurrence_number": 16,
+        "discourse_topic_id": 28522
       }
     ],
     "calendar_event_id": "bdlrq9mtdo9lmg981ut44k2of4"
