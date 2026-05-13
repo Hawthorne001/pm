@@ -1204,6 +1204,20 @@
       "youtubePlaylist": "PLJqWcTqh_zKH-673NddaSqiQFIWMMopf_",
       "calls": [
         {
+          "date": "2026-05-13",
+          "path": "zkevm/2026-05-13_004",
+          "resources": {
+            "transcript": "transcript.vtt",
+            "transcript_corrected": "transcript_corrected.vtt",
+            "changelog": "transcript_changelog.tsv",
+            "chat": "chat.txt",
+            "tldr": "tldr.json"
+          },
+          "number": 4,
+          "issue": 2047,
+          "videoUrl": "https://www.youtube.com/watch?v=whI_KURDylw"
+        },
+        {
           "date": "2026-04-08",
           "path": "zkevm/2026-04-08_003",
           "resources": {
