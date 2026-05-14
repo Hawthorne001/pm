@@ -9,7 +9,11 @@
           "date": "2026-05-14",
           "path": "acdc/2026-05-14_178",
           "resources": {
-            "chat": "chat.txt"
+            "transcript": "transcript.vtt",
+            "transcript_corrected": "transcript_corrected.vtt",
+            "changelog": "transcript_changelog.tsv",
+            "chat": "chat.txt",
+            "tldr": "tldr.json"
           },
           "number": 178,
           "issue": 2028,
