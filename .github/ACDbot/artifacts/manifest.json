@@ -6,6 +6,16 @@
       "youtubePlaylist": "PLJqWcTqh_zKFtf6yUxjwjE5P1gsDSIPjV",
       "calls": [
         {
+          "date": "2026-05-14",
+          "path": "acdc/2026-05-14_178",
+          "resources": {
+            "chat": "chat.txt"
+          },
+          "number": 178,
+          "issue": 2028,
+          "videoUrl": "https://youtube.com/watch?v=tZIY3IybQh4"
+        },
+        {
           "date": "2026-04-16",
           "path": "acdc/2026-04-16_177",
           "resources": {
