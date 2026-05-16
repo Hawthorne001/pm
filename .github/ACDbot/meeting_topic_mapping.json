@@ -3915,6 +3915,23 @@
         "occurrence_number": 23,
         "discourse_topic_id": 28291,
         "youtube_video_id": "Uj18ob_u-so"
+      },
+      {
+        "issue_number": 2060,
+        "issue_title": "FOCIL Breakout #34, May 19, 2026",
+        "start_time": "2026-05-19T13:00:00Z",
+        "duration": 60,
+        "skip_youtube_upload": false,
+        "skip_transcript_processing": false,
+        "youtube_upload_processed": false,
+        "transcript_processed": false,
+        "upload_attempt_count": 0,
+        "transcript_attempt_count": 0,
+        "telegram_message_id": null,
+        "youtube_streams_posted_to_discourse": false,
+        "youtube_streams": null,
+        "occurrence_number": 24,
+        "discourse_topic_id": 28544
       }
     ]
   },
