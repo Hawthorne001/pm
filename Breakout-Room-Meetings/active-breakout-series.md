@@ -3,18 +3,17 @@
 This table is automatically updated based on issues in the ethereum/pm repo.
 A breakout is considered "active" if it has a meeting date within the past 3 months.
 
-*Last updated: 2026-05-26 08:09 UTC (updated weekly)*
+*Last updated: 2026-06-02 08:44 UTC (updated weekly)*
 
 | Call Series | Facilitator | Latest | Issue |
 |-------------|-------------|--------|-------|
 | All Wallet Devs | [@SamWilsn](https://github.com/SamWilsn) | 2026-05-20 | [Link](https://github.com/ethereum/pm/issues/1997) |
-| EIP Editing Office Hour | [@poojaranjan](https://github.com/poojaranjan) | 2026-05-12 | [Link](https://github.com/ethereum/pm/issues/2043) |
-| EIP-7928 Breakout Room | [@nerolation](https://github.com/nerolation) | 2026-02-25 | [Link](https://github.com/ethereum/pm/issues/1944) |
-| EIPIP Meeting | [@poojaranjan](https://github.com/poojaranjan) | 2026-05-27 | [Link](https://github.com/ethereum/pm/issues/2062) |
+| EIP Editing Office Hour | [@poojaranjan](https://github.com/poojaranjan) | 2026-06-02 | [Link](https://github.com/ethereum/pm/issues/2080) |
+| EIPIP Meeting | [@poojaranjan](https://github.com/poojaranjan) | 2026-06-03 | [Link](https://github.com/ethereum/pm/issues/2086) |
 | Ethproofs Community Call | [@will-corcoran](https://github.com/will-corcoran) | 2026-03-20 | [Link](https://github.com/ethereum/pm/issues/1979) |
 | Fast Confirmation Rule (FCR) | [@will-corcoran](https://github.com/will-corcoran) | 2026-05-12 | [Link](https://github.com/ethereum/pm/issues/2037) |
-| FOCIL Breakout | [@jihoonsong](https://github.com/jihoonsong) | 2026-05-19 | [Link](https://github.com/ethereum/pm/issues/2060) |
-| Glamsterdam Repricings | [@misilva73](https://github.com/misilva73) | 2026-05-13 | [Link](https://github.com/ethereum/pm/issues/2048) |
+| FOCIL Breakout | [@jihoonsong](https://github.com/jihoonsong) | 2026-06-02 | [Link](https://github.com/ethereum/pm/issues/2098) |
+| Glamsterdam Repricings | [@misilva73](https://github.com/misilva73) | 2026-05-27 | [Link](https://github.com/ethereum/pm/issues/2082) |
 | L1-zkEVM Breakout | [@ladidan](https://github.com/ladidan) | 2026-05-13 | [Link](https://github.com/ethereum/pm/issues/2047) |
 | Post-Quantum (PQ) Interop | [@will-corcoran](https://github.com/will-corcoran) | 2026-04-22 | [Link](https://github.com/ethereum/pm/issues/2023) |
 | PQ Transaction Signatures | [@asanso](https://github.com/asanso) | 2026-05-27 | [Link](https://github.com/ethereum/pm/issues/2078) |
