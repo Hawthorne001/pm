@@ -3,15 +3,15 @@
 This table is automatically updated based on issues in the ethereum/pm repo.
 A breakout is considered "active" if it has a meeting date within the past 3 months.
 
-*Last updated: 2026-07-28 10:17 UTC (updated weekly)*
+*Last updated: 2026-08-04 10:22 UTC (updated weekly)*
 
 | Call Series | Facilitator | Latest | Issue |
 |-------------|-------------|--------|-------|
 | All Wallet Devs | [@SamWilsn](https://github.com/SamWilsn) | 2026-07-15 | [Link](https://github.com/ethereum/pm/issues/2139) |
-| EIP Editing Office Hour | [@poojaranjan](https://github.com/poojaranjan) | 2026-07-28 | [Link](https://github.com/ethereum/pm/issues/2173) |
+| EIP Editing Office Hour | [@poojaranjan](https://github.com/poojaranjan) | 2026-08-04 | [Link](https://github.com/ethereum/pm/issues/2180) |
 | EIPIP Meeting | [@poojaranjan](https://github.com/poojaranjan) | 2026-08-12 | [Link](https://github.com/ethereum/pm/issues/2159) |
 | Fast Confirmation Rule (FCR) | [@will-corcoran](https://github.com/will-corcoran) | 2026-05-12 | [Link](https://github.com/ethereum/pm/issues/2037) |
-| FOCIL Breakout | [@jihoonsong](https://github.com/jihoonsong) | 2026-07-21 | [Link](https://github.com/ethereum/pm/issues/2146) |
+| FOCIL Breakout | [@jihoonsong](https://github.com/jihoonsong) | 2026-08-04 | [Link](https://github.com/ethereum/pm/issues/2179) |
 | Glamsterdam Repricings | [@misilva73](https://github.com/misilva73) | 2026-05-27 | [Link](https://github.com/ethereum/pm/issues/2082) |
 | L1-zkEVM Breakout | [@ladidan](https://github.com/ladidan) | 2026-07-08 | [Link](https://github.com/ethereum/pm/issues/2148) |
 | PQ Transaction Signatures | [@asanso](https://github.com/asanso) | 2026-07-22 | [Link](https://github.com/ethereum/pm/issues/2164) |
